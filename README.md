@@ -12,7 +12,10 @@ npm install @sergeyzwezdin/prettier-config --save-dev
 ```json
 {
   "name": "your-package-name",
-  "prettier": "@sergeyzwezdin/prettier-config"
+  "prettier": "@sergeyzwezdin/prettier-config",
+  "scripts": {
+    "format": "prettier --write \"**/*.ts*\""
+  }
 }
 ```
 
