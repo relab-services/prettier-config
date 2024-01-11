@@ -11,9 +11,8 @@ npm install @sergeyzwezdin/prettier-config --save-dev
 2. Specify prettier configuration in `package.json`
 ```json
 {
-  // ...
+  "name": "your-package-name",
   "prettier": "@sergeyzwezdin/prettier-config"
-  // ...
 }
 ```
 
