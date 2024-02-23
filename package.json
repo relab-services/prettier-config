@@ -1,12 +1,12 @@
 {
-  "name": "@sergeyzwezdin/prettier-config",
+  "name": "@relab/prettier-config",
   "version": "1.1.1",
   "description": "Shareable prettier configuration",
   "main": "prettierrc.json",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergeyzwezdin/prettier-config.git"
+    "url": "git+https://github.com/relab-services/prettier-config.git"
   },
   "publishConfig": {
     "access": "public"
@@ -21,18 +21,18 @@
   "author": "Sergey Zwezdin <sergey@zwezdin.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sergeyzwezdin/prettier-config/issues"
+    "url": "https://github.com/relab-services/prettier-config/issues"
   },
-  "homepage": "https://github.com/sergeyzwezdin/prettier-config#readme",
+  "homepage": "https://github.com/relab-services/prettier-config#readme",
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "prettier": "3.1.1"
   },
   "devDependencies": {
+    "@relab/semantic-release-commits-config": "1.0.8",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.6",
     "@semantic-release/npm": "11.0.2",
-    "@sergeyzwezdin/semantic-release-commits-config": "1.0.2",
     "semantic-release": "22.0.12",
     "semantic-release-telegram-bot": "2.0.1"
   }

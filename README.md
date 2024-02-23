@@ -1,18 +1,18 @@
-# @sergeyzwezdin/prettier-config
+# @relab/prettier-config
 
 Shareable prettier configuration
 
 ## Usage
 
-1. Install package `@sergeyzwezdin/prettier-config`
+1. Install package `@relab/prettier-config`
 ```bash
-npm install @sergeyzwezdin/prettier-config --save-dev
+npm install @relab/prettier-config --save-dev
 ```
 2. Specify prettier configuration in `package.json`
 ```json
 {
   "name": "your-package-name",
-  "prettier": "@sergeyzwezdin/prettier-config",
+  "prettier": "@relab/prettier-config",
   "scripts": {
     "format": "prettier --write \"**/*.ts*\""
   }
