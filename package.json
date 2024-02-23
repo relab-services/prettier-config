@@ -9,7 +9,8 @@
     "url": "git+https://github.com/relab-services/prettier-config.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "files": [
     "prettierrc.json"
